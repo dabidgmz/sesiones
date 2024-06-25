@@ -77,11 +77,15 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     }
 }
 ?>
-## 3  Implementar Logout
- -- <?php
+
+<?php
     session_start();
     session_unset();
     session_destroy();
     header('Location: loginview.php');
     exit;
     ?>
+    logout example
+    
+## 3  Implementar Logout
+
