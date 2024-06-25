@@ -77,7 +77,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     }
 }
 ?>
-###3  Implementar Logout
+## 3  Implementar Logout
 <?php
 session_start();
 session_unset();
